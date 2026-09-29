@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration and database
+.env
+database.db
+database.db-journal
+database.db-shm
+database.db-wal
+
+# Editor and operating-system files
+.DS_Store
+.vscode/
+.idea/
+
+# Original uncompressed captures; the README uses the optimized JPG/PNG copies.
+screenshots/*.tiff
